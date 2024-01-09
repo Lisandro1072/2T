@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 484px;
+  height: 321px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.perfil {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.6) 30%,
+    rgba(0, 85, 255, 0.372) 100%
+  );
+  height: 150px;
+  margin: -10px 0 0 0;
+  width: 484px;
+  border-radius: 0 0 20px 20px;
+}
+
+.avatar {
+  margin: -50px 0 0 12px;
+  border: 9px solid #0e0e0e;
+  background-color: linear-gradient(
+    179.45deg,
+    #000000 0.47%,
+    #111214 45.69%,
+    rgba(0, 0, 0, 0) 45.7%
+  );
+  border-radius: 50%;
+}
+
+.nameprofile {
+  position: relative;
+  margin: 20px;
+}
+
+.badge {
+  display: flex;
+  width: 76px;
+  height: 33px;
+  background-color: black;
+  margin-left: 380px;
+  margin-top: -40px;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+.badge .uno {
+  margin-left: 5px;
+}
+
+.badge .dos {
+  margin-left: 15px;
+}
+
+.nameprofile {
+  display: flex;
+  font-size: 23px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.nameprofile h2 {
+  font-size: 23px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.nameprofile p {
+  font-size: 23px;
+  font-weight: 700;
+  color: #b9bbbe;
+}
